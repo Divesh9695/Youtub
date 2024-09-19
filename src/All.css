@@ -1,0 +1,23 @@
+.image-grid {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px; 
+  }
+  
+  .image-item {
+    width: 336px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    /* margin-top: 0px; */
+   
+
+  }
+  .image-grid-top{
+    margin-top: 30px;
+    gap: 10px; 
+    margin-left: 10px;
+    flex-wrap: wrap;
+  }
+  
